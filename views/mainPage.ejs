@@ -1,0 +1,9 @@
+<% include partials/header.ejs %>
+	<div class = "container">	
+		<% for(var i=0;i<data.length;i++){ %>
+			<h1><%= data[i].names%></h1>
+			<p><%= data[i].textareas %></p>	
+		<%}%>
+<a href = "/forms/new">Go to forms page</a>
+	</div>
+<% include partials/footer.ejs %>

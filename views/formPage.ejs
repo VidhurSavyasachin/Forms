@@ -1,0 +1,19 @@
+<% include partials/header.ejs %>
+<div class = "container">
+	<form action="/forms" method="POST">
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Name</label>
+	    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Email" name = "names">
+	  </div>
+	  <div class="form-group">
+	 <label>Text</label>
+	    <textarea placeholder="Enter Text" rows="4" style="width: 100%;" name="textareas"> </textarea>
+	   
+	  </div>
+	   <button type="submit" class="btn btn-default">Submit</button>
+	 </form>
+<a href="/forms">Go to main Page</a>
+</div>
+
+
+<% include partials/footer.ejs %>
